@@ -1,0 +1,17 @@
+* {
+    margin: 0 auto;
+    padding: 0; 
+}
+
+
+.main_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#counter {
+    text-align: center;
+}
