@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    padding: 0; 
+}
+
+
+.main_div {
+    padding: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.212);
+    border-radius: 10px;
+}
+
+
+#counter {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+/* ---- buttons ---- */
+.all_buttons {
+    display: flex;
+}
+
+
+button {
+    margin: 5px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.green {
+    background-color: rgba(0, 206, 0, 0.582);
+}
+
+.yellow {
+    background-color: rgba(203, 206, 0, 0.644);
+}
+
+.red {
+    background-color: rgba(206, 0, 0, 0.596);
+}
